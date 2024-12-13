@@ -3,7 +3,7 @@ use alloy::{
     providers::{builder, Provider},
 };
 use eyre::Result;
-use foundry_contracts::counter::Counter;
+use bindings::counter::Counter;
 
 #[tokio::main]
 async fn main() -> Result<()> {
